@@ -18,7 +18,7 @@ module.exports = {
                         sidebarDepth: 2,
                         children: [
                             'IntroProgramming/ClassNotes/class1',
-                            'IntroProgramming/class2',
+                            'IntroProgramming/ClassNotes/class2',
 
                         ]
                     },
