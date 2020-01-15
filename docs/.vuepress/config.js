@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Courses Assignments and Notes',
-    base: '/DouglasCourses/', // 这是部署到github相关的配置 下面会讲
+    //base: '/DouglasCourses/', // 这是部署到github相关的配置 下面会讲
 
     themeConfig: {
         nav: [{
