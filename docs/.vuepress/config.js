@@ -17,7 +17,9 @@ module.exports = {
                         collapsable: true,
                         sidebarDepth: 2,
                         children: [
-                            'IntroProgramming/ClassNotes/class1'
+                            'IntroProgramming/ClassNotes/class1',
+                            'IntroProgramming/class2',
+
                         ]
                     },
                     {
@@ -27,7 +29,7 @@ module.exports = {
                             'IntroProgramming/HW/hw1'
                         ]
                     },
-                    'IntroProgramming/class2',
+
                 ]
             },
             {
