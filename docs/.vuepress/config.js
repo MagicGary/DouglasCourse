@@ -61,7 +61,6 @@ module.exports = {
                         collapsable: true,
                         children: [
                             '/WebDevelopment/lab1/code',
-                            '/WebDevelopment/lab1/page.html',
                         ]
                     },
                     '/WebDevelopment/lab'
@@ -78,7 +77,7 @@ module.exports = {
                 ]
             },
             {
-                title: 'Leet Code',
+                title: 'LeetCode',
                 path: '/LeetCode',
                 collapsable: true,
                 sidebarDepth: 1,
