@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@okta/okta-vue": "^1.1.1",
     "vuepress": "^1.2.0"
   },
   "scripts": {
