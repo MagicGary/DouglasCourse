@@ -56,8 +56,15 @@ module.exports = {
                 path: '/WebDevelopment/',
                 collapsable: true,
                 sidebarDepth: 1,
-                children: [
-                    'WebDevelopment/lab1'
+                children: [{
+                        title: 'lab1',
+                        collapsable: true,
+                        children: [
+                            '/WebDevelopment/lab1/code',
+                            '/WebDevelopment/lab1/page.html',
+                        ]
+                    },
+                    '/WebDevelopment/lab'
                 ]
             },
             //third folder
@@ -68,6 +75,15 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     'SystemAnalysis/assignment1'
+                ]
+            },
+            {
+                title: 'Leet Code',
+                path: '/LeetCode',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                    'LeetCode/binaryTree'
                 ]
             },
         ]
