@@ -20,6 +20,18 @@ own bank uses?
 3. a cashless society helps central bank to better control its monetary policy, helps reduce naturual resources cost on printing cash or plastic fiat money and helps prevent gobal warming, furthermore, development of blockchain bitcoin techs not only supplement the cashless/online banking activities, but also promotes other features such as payment secuity, preventing financial fraud, and decentralized economy that is independent from an inefficient central banks and the monoply of banking and financial monoplies. 
 
 ## Three Disatvantages of Online Banking 
-1. Data secuity, tho not often seen, but examples such as equinox data breach, could 
+1. Data secuity, tho not often seen, but examples such as equinox data breach, could potentially cause financial losses to if not on the banking clients, but at least to the banks. which emphasizes more on the importance of investment on cyber security.
+
+2. For senior custormers who are not techonology intrigued, learning another technology to operate bakning software could throw challenges on them. And if not prepared, this could intrigue another spread of finanial scams targeting mainly senior citizens. 
+
+3. Labour replacement. When day-to-day tasks such as opening up a bank account, cash desposit, wire transfer trasations, or the demand of cash withdarwing at local bakning branches which traditionally was performed by a bank employed teller are all either replaced or declinced due to mobile banking enbaling individual customers to perform these funcionalities. Or more and more mundane maunal corporate tasks are being replaced by automation, such as accounting and clearing systems. Most people will go out of workforce. Government need to act on now with efficient solutions to solve this issue and crisis. 
+
 
 ## Others 
+
+1. some customers will be reluctant to use mobile banking mainly because of 
+    * non-savvy in techonology 
+
+2. Two example of popular apps my bank use
+    * SAP for accounting 
+    * PeopleSoft for HR and Payroll
