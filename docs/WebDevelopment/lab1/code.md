@@ -1,4 +1,10 @@
-# Lab 1
+# Lab 1 
+
+
+## Demo 
+[Live demo](https://web-dev-demo-douglas.herokuapp.com/lab1/lab1.html)
+
+## Code 
 
 ```html
 <!DOCTYPE html>

@@ -56,11 +56,38 @@ module.exports = {
                 path: '/WebDevelopment/',
                 collapsable: true,
                 sidebarDepth: 1,
-                children: [{
-                        title: 'lab1',
+                children: [
+                    '/WebDevelopment/lab1/code',
+                    // {
+                    //     title: 'Lab 1',
+                    //     collapsable: true,
+                    //     children: [
+                    //         '/WebDevelopment/lab1/code',
+                    //     ]
+                    // },
+                    {
+                        title: 'Lab 2',
                         collapsable: true,
                         children: [
-                            '/WebDevelopment/lab1/code',
+                            '/WebDevelopment/lab2/live',
+                            {
+                                title: 'HTML',
+                                collapsable: true,
+                                children: [
+                                    '/WebDevelopment/lab2/HTML/jtc_index_html',
+                                    '/WebDevelopment/lab2/HTML/jtc_services_html'
+                                ]
+
+                            },
+                            {
+                                title: 'CSS',
+                                collapsable: true,
+                                children: [
+                                    '/WebDevelopment/lab2/CSS/jtc_base_css',
+                                    '/WebDevelopment/lab2/CSS/jtc_layout_css'
+                                ]
+
+                            }
                         ]
                     },
                     '/WebDevelopment/lab'
