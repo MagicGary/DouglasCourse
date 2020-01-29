@@ -109,7 +109,8 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                    'LeetCode/binaryTree'
+                    'LeetCode/binaryTree',
+                    'LeetCode/binarySearch'
                 ]
             },
         ]
