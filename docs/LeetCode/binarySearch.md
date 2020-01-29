@@ -59,5 +59,16 @@
 
 5. __did not think of a very important condition that helps improve speed__
     * do not check both left and right subarray because answer will definitely be in one of the two 
+    * if ``arr[m] < arr[m+1]``, there must be a peak in the right subarray. beacause if not then right subarray in stricly increasing 
+    so the boundary ``arr[n]`` must be larger than ``arr[n-1]``and therefore n is a peak
+    * similarly, 
+        * claim: __if ``arr[m] < arr[m-1]``, then there must be a peak in the left subarray.__ 
+        * proof: suppose there does not exist a peak in the left subarray, then therefore for each i in left subarray where i > 0 and less than or equal to m-1, ``arr[i-1] > arr[i]`` i.e. strictly decreasing. and hence, `arr[0] > arr[1]` and therefore `arr[0]` is a peak. 
+        * since we have proved that if `arr[m] < arr[m+1] or arr[m] > arr[m-1]`, there must exist a peak in either left or right subarray. so we can search in either one of the subarray. 
+        * if both `arr[m] < arr[m+1] and arr[m] < arr[m-1] are not true` then `arr[m] > arr[m+1] and arr[m] > arr[m-1]`, then `arr[m]` is a peak
 
-5. Next try to solve this using iteration
+5. Solve this using iteration
+    * __To solve in iteration think about condition 5__
+    1. if ``arr[m] < arr[m+1]`` go to right subarray, i.e. `` l = m `` 
+    2. if ``arr[m] < arr[m-1]`` go to left subarray,  i.e. `` r = m ``
+    3. stop when left meets right and return the bigger one 
