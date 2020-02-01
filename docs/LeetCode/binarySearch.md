@@ -74,26 +74,24 @@
     3. stop when left meets right and return the bigger one 
 
 ## LeetCode 240 Search 2D Matrix II 
+### Issues
+1. Coded the O(m+n) algorithm in 15-20 minutes, then spent _50 minutes_ degbug this crap ......
+2. Edge cases keeping coming up at the stopping conditions and got all confused with the variable namings.
+3. Stopping condiditons have a lot questions
+    1. when there is only one row or one column left, how to handle this. 
+        * if there's only one row left, if target bigger than topRight, return False
+        * if there's only one column left, if target less than topRight, return False
+    2. make stop conditon to when col == 0 and row == 0 ??
+        1. **So much easier to implement**
+4. **Use a freaking piece of paper and pen to draw when the problem gets difficult**
+
+
 
 1. It's a simple question but I started off trying to find a more efficient solution, but too many __test cases__ proved this algorithm wrong. 
 
 2. Most often seen solution is row-by-row binary search. Which is really easy to do. 
 
-3. I tried to do a 2-pass binary search and it doesn't work for many of the test cases .
-
-4. Maybe try a zig-zag binary search? 
-        nope, that won't work either 
-    ```python
-    [
-        [1,2,3,7,8,9],
-        [5,10,14,16,19],
-        [8,10,18,19,23],
-        [9,12,22,24,29]
-    ]
-    ```
-    if want to find 22, the only way is to do a row-by-row binary search
-
-5. There is another way which is more optimal and time complexity is ``O(m+n)``. 
+3. There is another way which is more optimal and time complexity is ``O(m+n)``. 
     * uses elimination method 
 
 6. The challenge of this one:
@@ -102,6 +100,10 @@
     2. if it is just simply implementing a __sub-optimal__ algorithm using __row-by-row binary search__, there is really nothing difficult about that part. 
 
     3. even thoug labeled as a __binary search__ problem, the optimal algorithm has nothing to do with **binary search**, it's more of a **linear exclusion** problem, 
+
+7. It's a little bit similar to binary Search as it uses reduction implementation skills. 
+
+
 
 
 ## LeetCode 887 Super Egg Drop (Fun and Hard)
@@ -143,6 +145,10 @@
     * in this case the only way to find the pivot would be `O(N)`time, no way a binary search would work here
     * so just perform a linear serch for the target right away. 
 
+## LC 69 Sqrt 
+1. fairly easy 
+2. if cannot use `math.ceiling` or `math.floor` or `math.abs`, then just have to pick one by one in binary algo and compare its squar with target, stop when left meets right and check. accepted condition is less than or equal to 
+3. it's better to use `math.ceiling`, and other math functions to make it more precise. 
 
         
 
